@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS `login` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `image` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+INSERT INTO `login` (`id`, `username`, `password`, `image`) VALUES
+(1, 'ilmudetil', 'ilmudetil', 'ilmudetil.png'),
+(2, 'android', 'android', 'android.png');
